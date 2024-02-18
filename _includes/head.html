@@ -7,4 +7,14 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <style>
+    #bio {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+      @media only screen and (min-width: 550px) {
+        width: 80%;
+      }
+    }
+  </style>
 </head>
