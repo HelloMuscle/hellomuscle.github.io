@@ -1,6 +1,6 @@
 # Site settings
 title: Hello Muscle Massage Therapy
-description: Conversations in Motion, Bodies Share, Hands Listen
+description: Hello Muscle Massage Therapy
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -8,7 +8,7 @@ description: Conversations in Motion, Bodies Share, Hands Listen
 username: Hello Muscle Massage Therapy
 user_description: Conversations in Motion, Bodies Share, Hands Listen
 #user_title: Software Developer
-#email: anon@anon.com
+email: rmt@hellomuscle.net
 #twitter_username: lorem_ipsum
 #github_username:  lorem_ipsum
 #gplus_username:  lorem_ipsum
