@@ -3,6 +3,12 @@
   {% include head.html %}
   <body>
       {% include header.html %}
+      <section id="treatments">
+        {% include treatments.html %}
+      </section>
+      <section id="testimonial">
+        {% include testimonial.html %}
+      </section>
       <section id="about">
         {% include about.html %}
       </section>
@@ -11,12 +17,6 @@
       </section>
       <section id="bio">
         {% include bio.html %}
-      </section>
-      <section id="testimonial">
-        {% include testimonial.html %}
-      </section>
-      <section id="treatments">
-        {% include treatments.html %}
       </section>
         {{ content }}
       {% include footer.html %}
